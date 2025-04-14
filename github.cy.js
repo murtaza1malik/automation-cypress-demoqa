@@ -1,0 +1,11 @@
+t('#currentAddress').type('Bedian Road, Lahore')
+//cy.get('.css-yk16xz-control > .css-1wy0on6 > .css-tlfecz-indicatorContainer').click()
+//cy.get('#react-select-3-option-2').click()
+//cy.get('[class="css-19bqh2r"]').eq(1).click()
+//cy.get('#react-select-4-option-0').click()
+cy.get('#state').click()
+cy.get('#react-select-3-option-2').click()
+cy.get('#city').click()
+cy.get('#react-select-4-option-0').click()
+cy.get('#submit').click()
+
